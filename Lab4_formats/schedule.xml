@@ -1,0 +1,50 @@
+<?xml version=1.0 encoding="UTF-8">
+<schedule>
+	<monday>
+		<start_time>9:50</start_time>
+		<end_time>13:00</end_time>
+		<week_enum>
+			<week_enum_element>2</week_enum_element>
+			<week_enum_element>4</week_enum_element>
+			<week_enum_element>6</week_enum_element>
+			<week_enum_element>8</week_enum_element>
+			<week_enum_element>10</week_enum_element>
+			<week_enum_element>12</week_enum_element>
+			<week_enum_element>14</week_enum_element>
+			<week_enum_element>16</week_enum_element>
+		</week_enum>
+		<studying_program>СиППО</studying_program>
+		<classrooms>
+			<classrooms_element>2337</classrooms_element>
+			<classrooms_element>1333</classrooms_element>
+		</classrooms>
+		<address>Кронверкский пр-т д. 49, лит. А</address>
+		<subjects>
+			<subjects_element>Основы дискретной математики</subjects_element>
+			<subjects_element>Основы профессиональной деятельности</subjects_element>
+		</subjects>
+		<study_format>Очный</study_format>
+	</monday>
+	<wednesday>
+		<start_time>11:30</start_time>
+		<end_time>13:00</end_time>
+		<week_enum>
+			<week_enum_element>2</week_enum_element>
+			<week_enum_element>4</week_enum_element>
+			<week_enum_element>6</week_enum_element>
+			<week_enum_element>8</week_enum_element>
+			<week_enum_element>10</week_enum_element>
+			<week_enum_element>12</week_enum_element>
+			<week_enum_element>14</week_enum_element>
+			<week_enum_element>16</week_enum_element>
+		</week_enum>
+		<studying_program>
+			<studying_program_element>КСиТ 2</studying_program_element>
+			<studying_program_element>СиППО 1</studying_program_element>
+		</studying_program>
+		<classroom>1216/0 (УСЛ.) АУД.</classroom>
+		<address>ул. Ломоносова, д. 9, лит. М.</address>
+		<subject>Информатика</subject>
+		<study_format>Очно - дистанционный</study_format>
+	</wednesday>
+</schedule>
