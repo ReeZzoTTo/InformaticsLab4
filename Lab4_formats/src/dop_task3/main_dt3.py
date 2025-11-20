@@ -1,5 +1,3 @@
-from time import time as time_time
-
 def get_bin_file_object(filename: str) -> dict:
     with open(filename, encoding="utf-8") as file:
         result_json_file_text: dict = {}
@@ -93,19 +91,8 @@ def parse_main_xml(obj: dict, main_argument: str = "schedule") -> None:
     
 
 def main():
-    start_time = time_time()
     obj: dict = get_bin_file_object("objects/schedule.ini")
-    end_time = time_time()
-    print("Время парсинга -", (end_time - start_time) * 100)
-
-    start_time = time_time()
-    parse_main_xml(obj=obj, 
-              main_argument="schedule"
-    )
-    end_time = time_time()
-    print("Время конвертации -", (end_time - start_time) * 100)
-
-
+    parse_main_xml(obj=obj, main_argument="schedule")
 
 if __name__ == "__main__":
     main()
