@@ -2,9 +2,9 @@
 # 106: INI -> JSON
 
 
-def get_bin_file_object(filename: str) -> dict:
+def get_bin_file_object(filename: str):
     with open(filename, encoding="utf-8") as file:
-        result_json_file_text: dict = {}
+        result_json_file_text = {}
         ini_block: dict = {}
 
         for line in file:
@@ -34,3 +34,4 @@ def get_bin_file_object(filename: str) -> dict:
         result_json_file_text[ini_block_name] = ini_block
 
         return result_json_file_text
+
